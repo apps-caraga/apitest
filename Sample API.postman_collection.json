@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "7446445f-5587-46d8-a415-40bb800cde4d",
+		"name": "Sample API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32080232"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"user\",\r\n    \"password\":\"dswd123dswd123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/sample-api/my-api.php/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"sample-api",
+						"my-api.php",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"user\",\r\n    \"password\":\"dswd123dswd123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/sample-api/my-api.php/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"sample-api",
+						"my-api.php",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Roles (Admin only)",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Reports",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/sample-api/my-api.php/records/reports",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"sample-api",
+						"my-api.php",
+						"records",
+						"reports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Reports - with User/Owner Info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/sample-api/my-api.php/records/reports?join=users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"sample-api",
+						"my-api.php",
+						"records",
+						"reports"
+					],
+					"query": [
+						{
+							"key": "join",
+							"value": "users"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Report",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"subject\":\"Hey\",\r\n    \"content\":\"Hey Hey Hey\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/sample-api/my-api.php/records/reports",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"sample-api",
+						"my-api.php",
+						"records",
+						"reports"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
