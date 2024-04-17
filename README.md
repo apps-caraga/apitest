@@ -17,3 +17,6 @@ Basic usage of dbAuth, authorization, and multiTenancy middlewares
 **views**
 
  - active_users : db view, joining users table with roles and offices
+
+
+[Db Authentication Methods](https://github.com/mevdschee/php-crud-api?tab=readme-ov-file#database-authentication)
