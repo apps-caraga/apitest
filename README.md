@@ -21,6 +21,8 @@ Basic usage of dbAuth, authorization, and multiTenancy middlewares
 
 [Db Authentication Methods](https://github.com/mevdschee/php-crud-api?tab=readme-ov-file#database-authentication)
 
+**endpoints**
+
 
 | Action 	| HTTP 	| URL 	|
 |---	|---	|---	|
