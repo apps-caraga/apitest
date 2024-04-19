@@ -26,6 +26,6 @@ Basic usage of dbAuth, authorization, and multiTenancy middlewares
 |---	|---	|---	|
 | Create 	| POST 	| /records/{resource} 	|
 | List 	| GET 	| /records/{resource} 	|
-| Read 	| GET 	| /records/{resource}/<id> 	|
-| Update 	| PUT 	| /records/{resource}/<id> 	|
-| Delete 	| DELETE 	| /records/{resource}/< 	|
+| Read 	| GET 	| /records/{resource}/{id} 	|
+| Update 	| PUT 	| /records/{resource}/{id} 	|
+| Delete 	| DELETE 	| /records/{resource}/{id}	|
