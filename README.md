@@ -20,3 +20,12 @@ Basic usage of dbAuth, authorization, and multiTenancy middlewares
 
 
 [Db Authentication Methods](https://github.com/mevdschee/php-crud-api?tab=readme-ov-file#database-authentication)
+
+
+| Action 	| HTTP 	| URL 	|
+|---	|---	|---	|
+| Create 	| POST 	| /records/<resource> 	|
+| List 	| GET 	| /records/<resource> 	|
+| Read 	| GET 	| /records/<resource>/<id> 	|
+| Update 	| PUT 	| /records/<resource>/<id> 	|
+| Delete 	| DELETE 	| /records/<resource>/< 	|
